@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+html { letter-spacing: 1.4px; font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal;}
+.poppins-black {font-family: "Poppins", sans-serif; font-weight: 900; font-style: normal;}
+
+.container {width: 96%; margin: 0 auto; padding: 0;}
+.container:after,.container:before { content: " "; display: table;}
+.container:after { clear: both;}
+/* box da minha grid */
+.box-1 {width: 6.818181818181818%;}
+.box-2 {width: 15.15151515151515%;}
+.box-3 {width: 23.48484848484848%;}
+.box-4 {width: 31.81818181818182%;}
+.box-5 {width: 40.15151515151515%;}
+.box-6 {width: 48.48484848484848%;}
+.box-7 {width: 56.81818181818182%;}
+.box-8 { width: 65.15151515151515%;}
+.box-9 {width: 73.48484848484848%;}
+.box-10 {width: 81.81818181818182%;}
+.box-11 {width: 90.15151515151515%;}
+.box-12 {width: 98.48484848484848%;}
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10,.box-11,.box-12 {
+    float: left;    margin-left: 0.7575757575757576%;  margin-right: 0.7575757575757576%;
+}
+.cabec{
+    background-color: #3c3c3c;
+    width: 100%;
+    height: 80px;
+    padding: 10px;  
+    display:grid;
+    align-items: center;
+}
+nav{
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 10px;
+}
+ul li{
+    margin-left: 15px;
+    margin-left: 30px;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.big-title{
+    font-size: 46px;
+    text-align: center;
+}
+.faxada .big-title{
+    margin-top: 150px;
+}
+.faxada{
+    margin-top: 50px;
+    text-align: center;
+}
+.faxada .text{
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin-top: 30px;
+}
+.faxada .caixa{
+    background-color: #7d5b8c;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFF;
+    font-weight: 500;
+}
+.faxada img{
+    width: 100%; 
+    display: block;
+}
+.faxada .img{
+    padding: 90px;
+}
+body{
+    background-color: #c8c8c8;
+}
